@@ -1,0 +1,160 @@
+.page-header-title {
+    color: #2c304d;
+    font-weight: 600;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-right: auto!important;
+}
+
+/* page headlines*/
+
+.section-title h1, .section-title h2, .section-title h3, .section-title h4, .section-title h5, .section-title h6 {
+    color: #2c304d;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+/*labels*/
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+/*caption*/
+
+element.style {
+    color: gray;
+    font-size: 10px;
+}
+a, i, span {
+    display: inline-block;
+    text-decoration: none;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+/*btn primary secondary */
+
+
+.btn-lg {
+    padding: .75rem 2.5rem;
+    font-size: 1rem;
+    border-radius: 4.2rem;
+}
+.btn-gradient-03, .btn-gradient-03 a {
+    background: #00A1DB;
+    background: linear-gradient(to right,#00A1DB 0%,#00A1DB 100%);
+    background-size: 200% auto;
+    font-weight: 600;
+    transition: 0.5s;
+    color: #fff;
+    border: 0 none;
+    padding: 12px 20px;
+}
+.btn {
+    font-weight: 600!important;
+    line-height: 1.25;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: .85rem;
+    border-radius: 60px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+.btn-group-lg>.btn, .btn-lg {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+button, input[type='submit'] {
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: 300!important;
+}
+button, input {
+    outline: none!important;
+}
+[type=reset], [type=submit], button, html [type=button] {
+    -webkit-appearance: button;
+}
+button, select {
+    text-transform: none;
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button {
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    padding: 1px 6px;
+}
+user agent stylesheet
+input[type="button" i], input[type="submit" i], input[type="reset" i], input[type="file" i]::-webkit-file-upload-button, button {
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: buttonface;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonface;
+    border-image: initial;
+}
+user agent stylesheet
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+user agent stylesheet
+input, textarea, select, button, meter, progress {
+    -webkit-writing-mode: horizontal-tb !important;
+}
+user agent stylesheet
+button {
+    -webkit-appearance: button;
+}

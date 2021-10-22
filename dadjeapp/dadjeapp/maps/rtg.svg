@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 700 700" enable-background="new 0 0 700 700" xml:space="preserve">
+
+<a href="javascript:void(0)" onClick="clkrhdFunction(this);">
+<g id="rheadblock">
+<title>Head Block</title>
+	<rect x="309.6" y="267" fill="#727272" width="1.5" height="80.4"/>
+	<rect x="299.9" y="267" fill="#727272" width="1.5" height="80.4"/>
+	<rect x="297.8" y="361.9" fill="#373736" width="15.1" height="13.1"/>
+	<g>
+		<g>
+			<path fill="#FFFF00" d="M315,350.6l-0.8,3.2l-0.9,3.5l-1,3.9l-0.6,2.4c-0.1,0.3-0.3,0.7-0.5,0.9c-0.1,0.1-0.1,0.1-0.2,0.2
+				l-1.6,1.1c-0.3,0.2-0.7,0.3-1.1,0.3h-5.9c-0.4,0-0.8-0.1-1.1-0.3l-1.6-1.1c-0.4-0.3-0.6-0.6-0.7-1.1l-0.7-2.8l-1.5-5.9l-1.1-4.3
+				c-0.1-0.4-0.1-0.9,0.1-1.3l0.1-0.1l1.4-3l0.5-1.1c0.3-0.6,1-1,1.7-1h11.6c0.7,0,1.4,0.4,1.7,1l2,4.2c0.1,0.1,0.1,0.3,0.1,0.4
+				C315.1,350.1,315,350.4,315,350.6z"/>
+		</g>
+		<circle fill="#737272" cx="300.7" cy="347.4" r="1.6"/>
+		<circle fill="#737272" cx="310.4" cy="347.4" r="1.6"/>
+		<circle fill="#737272" cx="305.4" cy="361.9" r="2.1"/>
+		<circle fill="#373736" cx="300.7" cy="347.4" r="1.1"/>
+		<circle fill="#373736" cx="310.4" cy="347.4" r="1.1"/>
+		<circle fill="#373736" cx="305.3" cy="361.9" r="1.5"/>
+	</g>
+</g>
+</a>
+<a href="javascript:void(0)" onClick="clkrrlFunction(this);">
+<g id="rrail">
+	<title>Rail</title>
+	<rect x="219.9" y="258.1" fill="#155e87" width="263.5" height="26.4"/>
+</g>
+<g>
+	<rect x="288.3" y="228.7" fill="#23507c" width="34.1" height="7.1"/>
+	<rect x="290.4" y="237.2" fill="#373736" width="29.9" height="12.7"/>
+	<rect x="288.3" y="234.1" fill="#155e87" width="34.1" height="12.7"/>
+	<rect x="209.4" y="249.5" fill="#23507c" width="284.3" height="26.4"/>
+	<rect id="spreeader" x="296.6" y="374.8" fill="#727272" width="17.5" height="5.3"/>
+</g>
+</a>
+<a href="javascript:void(0)" onClick="clkrstFunction(this);">
+<g id="rstairs">
+		<title>Stairs</title>
+	<rect x="441.6" y="307.8" fill="#23507c" width="2.2" height="116.4"/>
+	<rect x="456.5" y="307.8" fill="#23507c" width="2.2" height="116.4"/>
+	<rect x="442.7" y="314.5" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="324.5" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="334.4" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="344.3" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="354.2" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="364.1" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="374" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="384" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="393.9" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="403.8" fill="#23507c" width="14.9" height="2.2"/>
+	<rect x="442.7" y="413.7" fill="#23507c" width="14.9" height="2.2"/>
+</g>
+</a>
+<a href="javascript:void(0)" onClick="clkrcnFunction(this);">
+<g id="rcontainer">
+	<title>container</title>
+	<rect x="344.1" y="390.5" fill="#8E3C4A" width="58.2" height="26.4"/>
+	<rect x="373.2" y="417" fill="#2D9658" width="58.2" height="26.4"/>
+	<rect x="315" y="417" fill="#8FA8C7" width="58.2" height="26.4"/>
+	<polygon opacity="0.2" fill="#171715" points="315,417 315,443.4 373.2,443.4 	"/>
+	<polygon opacity="0.2" fill="#171715" points="344.1,390.5 344.1,417 402.3,417 	"/>
+	<polygon opacity="0.2" fill="#171715" points="373.2,417 373.2,443.4 431.4,443.4 	"/>
+</g>
+</a>
+v<a href="javascript:void(0)" onClick="clkrlgFunction(this);">
+<g id="rlegs">
+	<title>Legs</title>
+	<g>
+		<rect x="234.3" y="220.7" fill="#155e87" width="16.5" height="206.4"/>
+		<rect x="223.4" y="424" fill="#23507c" width="38.2" height="8.4"/>
+	</g>
+	<g>
+		<rect x="452.5" y="220.7" fill="#155e87" width="16.5" height="206.4"/>
+		<rect x="441.6" y="424" fill="#23507c" width="38.2" height="8.4"/>
+	</g>
+</g>
+</a>
+<a href="javascript:void(0)" onClick="clkrdcFunction(this);">
+<g id="rdrivercabin">
+	<title>Driver Cabin</title>
+	<path fill="#373736" d="M434.4,260v49.3h-17.3c-2.7,0-5-2.2-5-5v-11.5l0.6-1.9l0.3-1.1l0.6-1.9l1.9-6.2l0.6-1.9l2.9-9.3l0.6-1.9
+		l1.6-5.3c0.6-2.1,2.6-3.5,4.7-3.5L434.4,260z"/>
+	<polygon fill="#666665" points="434.4,260 434.4,309.3 452.5,309.3 452.5,259.8 	"/>
+	<polygon fill="#666665" points="438.5,288 438.5,289.9 413.1,289.9 413.7,288 	"/>
+	<polygon fill="#666665" points="438.5,268.8 438.5,270.7 419,270.7 419.6,268.8 	"/>
+</g>
+</a>
+<a href="javascript:void(0)" onClick="clkrgcFunction(this);">
+<g id="rgantrycs">
+	<title>Gantry  Cabin Side</title>
+	<rect x="446.1" y="431.1" fill="#373736" width="6.4" height="12.3"/>
+	<rect x="469" y="431.1" fill="#373736" width="6.4" height="12.3"/>
+	<polygon fill="#23507c" points="466.9,441.4 454.6,441.4 453.4,429 468,429 	"/>
+</g>
+</a>
+<a href="javascript:void(0)" onClick="clkrglFunction(this);">
+<g id="rgantryls">
+	<title>Gantry Land Side</title>
+	<rect x="227.9" y="431.1" fill="#373736" width="6.4" height="12.3"/>
+	<rect x="250.7" y="431.1" fill="#373736" width="6.4" height="12.3"/>
+	<polygon fill="#23507c" points="248.7,441.4 236.4,441.4 235.2,429 249.8,429 	"/>
+</g>
+</svg>

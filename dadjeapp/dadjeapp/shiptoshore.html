@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta charset="utf-8">
+		<title>STS</title>
+
+		<!-- Viewport for Responsivity -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+		<meta name="description" content="Vector Switzerland map with clickable states and pins, an example of using Mapplic, a premium custom interactive map plugin to display custom image or vector (SVG) maps.">
+
+		<!-- Stylesheets -->
+		<link href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="cssm/style.css">
+		<link rel="stylesheet" type="text/css" href="cssm/map.css">
+		<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+		<!-- Internet Explorer -->
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="mapplic/mapplic-ie.css">
+			<script type="text/javascript" src="js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div id="wrap">
+
+			<!-- Site header -->
+			<header id="header">
+				
+			</header>
+
+			<!-- Site content -->
+			<div id="content">
+
+				<section id="map-section" class="inner over">
+					<div class="editor-window">
+						<div class="window-mockup brown"></div>
+						<div class="editor-body">
+							<code>
+								{<br>
+								&nbsp;&nbsp;&nbsp;"id": "newlandmark",<br>
+								&nbsp;&nbsp;&nbsp;"title": "New Landmark",<br>
+								&nbsp;&nbsp;&nbsp;"description": "Creating a new landmark is that easy!",<br>
+								&nbsp;&nbsp;&nbsp;"x": "<span class="mapplic-coordinates-x">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;"y": "<span class="mapplic-coordinates-y">0.0000</span>",<br>
+								&nbsp;&nbsp;&nbsp;...<br>
+								}
+							</code>
+						</div>
+					</div>
+
+					<!-- Map -->
+					<div class="map-container">
+						<div class="window-mockup">
+							<div class="window-bar"></div>
+						</div>
+						<div id="mapplic"></div>
+					</div>
+				</section>
+			</div>
+		</div>
+
+		<!-- Scripts -->
+		<script type="text/javascript" src="jsm/jquery.min.js"></script>
+		<script type="text/javascript" src="jsm/hammer.min.js"></script>
+		<script type="text/javascript" src="jsm/jquery.easing.js"></script>
+		<script type="text/javascript" src="jsm/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="jsm/smoothscroll.js"></script>
+		<script type="text/javascript" src="mapplic/mapplic.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#mapplic').mapplic({
+					source: 'shiptoshore.json',
+					sidebar: false,
+					minimap: true,
+					fullscreen: false,
+					hovertip: true,
+					developer: true,
+					maxscale: 3,
+					zoom: true
+				});
+
+				$('.usage').click(function(e) {
+					e.preventDefault();
+					
+					$('.editor-window').slideToggle(200);
+				});
+
+				$('.editor-window .window-mockup').click(function() {
+					$('.editor-window').slideUp(200);
+				});
+			});
+		</script>
+<style>
+svg #container:hover path {
+  fill:  #8c111d;
+  transition: all ease 0.3s;
+}
+
+
+svg #backreach:hover path {
+  fill:  #8c111d;
+  transition: all ease 0.3s;
+}
+
+svg #legs:hover path {
+  fill: #8c111d;
+  transition: all ease 0.3s;
+}
+
+svg #drivercabin:hover path {
+  fill:  #8c111d;
+  transition: all ease 0.3s;
+}
+
+svg #machineryhouse:hover path {
+  fill:  #8c111d;
+  transition: all ease 0.3s;
+}
+
+svg path {
+  transition: all ease 0.3s;
+}
+
+
+.enabled {
+  fill: #21669E;
+  cursor: pointer;
+}
+
+.description {
+  pointer-events: none;
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+  background: white;
+  padding: 10px 15px;
+  z-index: 5;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  color: #21669e;
+  border-radius: 5px;
+  box-shadow: 0 0 0 1px #eee;
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  display: none;
+}
+.description.active {
+  display: block;
+}
+.description:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 0;
+  height: 0;
+  margin-left: -10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid white;
+}
+	</style>
+
+	</body>
+</html>

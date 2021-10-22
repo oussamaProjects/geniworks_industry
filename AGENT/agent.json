@@ -1,0 +1,120 @@
+{
+	"mapwidth":"1200",
+	"mapheight":"1000",
+	"categories":[
+
+	],
+	"levels":[
+		{
+			"id":"agent",
+			"title":"GW agent",
+			"map":"agent.svg",
+			"locations":[
+				{
+					"id": "harness",
+					"title": "Harness",
+					"description": "Harness... description",
+					"pin": "hidden",
+					"fill": "#82c03e",
+					"link": "canada.html",
+					"x": "0.2271",
+					"y": "0.4290"
+				},
+				{
+					"id": "backreach",
+					"title": "back Reach",
+					"description": "back Reach... Description",
+					"pin": "hidden",
+					"fill": "#82c03e",
+					"link": "usa.html",
+					"x": "0.2338",
+					"y": "0.5232"
+				},
+				{
+					"id": "combine",
+					"title": "Combine",
+					"description": "Combine ... Description.",
+					"link": "france.html",
+					"fill": "#795ecd",
+					"pin": "hidden",
+					"x": "0.5079",
+					"y": "0.4758"
+				},
+				{
+					"id": "face",
+					"title": "Face",
+					"description": "<p>Sed sed est sem. Donec et pretium justo, sodales finibus risus. Donec vulputate neque felis, ut porta turpis ultrices sit amet.</p><p>Nullam ut lectus massa. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc lobortis pretium velit eu maximus. Integer a faucibus libero.</p><p>Ut id eleifend sem, faucibus consectetur ligula. Proin vel vestibulum dui. Sed rhoncus eleifend velit, a sodales eros auctor ut.</p>",
+					"pin": "hidden",
+					"fill": "#795ecd",
+					"link": "germany.html",
+					"x": "0.5284",
+					"y": "0.4468"
+				},
+				{
+					"id": "glovesleft",
+					"title": "Gloves Left",
+					"description": "Gloves Left ... description",
+					"pin": "hidden",
+					"fill": "#795ecd",
+					"x": "0.5515",
+					"y": "0.4731"
+				},
+				{
+					"id": "glovesright",
+					"title": "Gloves Right",
+					"description": "Gloves Right  ... description",
+					"pin": "hidden",
+					"fill": "#795ecd",
+					"x": "0.5581",
+					"y": "0.5171"
+				},
+				{
+					"id": "casque",
+					"title": "Casque",
+					"description": "Casque... description",
+					"pin": "hidden",
+					"fill": "#795ecd",
+					"link": "uk.html",
+					"x": "0.4941",
+					"y": "0.4285"
+				},
+				{
+					"id": "botteleft",
+					"title": "Botte Left",
+					"description": "Botte Left... description",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.5654",
+					"y": "0.8221"
+				},
+				{
+					"id": "botteright",
+					"title": "Botte Right",
+					"description": "Botte right ... description",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.6238",
+					"y": "0.7749"
+				},
+				{
+					"id": "glasses",
+					"title": "Protection Glasses",
+					"description": "Protection Glasses ... description",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.6238",
+					"y": "0.7749"
+				},
+				{
+					"id": "mask",
+					"title": "Protection Mask",
+					"description": "Protection Mask ... description",
+					"pin": "hidden",
+					"fill": "#f19819",
+					"x": "0.6238",
+					"y": "0.7749"
+				}
+			]
+		}
+	]
+}
